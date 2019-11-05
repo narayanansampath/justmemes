@@ -2,9 +2,11 @@
 
 Flutter application to enjoy unlimited and random memes.
 
-## Getting Started
+Check it out on playstore: https://play.google.com/store/apps/details?id=com.ryan.just_memes
 
-This project is a starting point for a Flutter application.
+Memes are fetched with the API by R3l3ntl3ss, repo link: https://github.com/R3l3ntl3ss/Meme_Api
+
+Thanks to R3l3ntl3ss for this awesome api.
 
 A few resources to get you started if this is your first Flutter project:
 
