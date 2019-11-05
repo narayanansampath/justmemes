@@ -11,7 +11,7 @@ description: Flutter application to enjoy unlimited and random memes.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 0.1.8+9
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -23,14 +23,34 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  flutter_tindercard: ^0.1.8
   http: ^0.12.0+2
-  flutter_bloc: ^0.15.1
+  flutter_bloc: ^0.21.0
   equatable: ^0.5.1
+  extended_image: ^0.5.8
+  esys_flutter_share: ^1.0.2
+  url_launcher: ^5.0.5
+  image_picker_saver: ^0.3.0
+  flushbar: ^1.9.0
+  flutter_swiper: ^1.1.6
+  flare_flutter: ^1.5.8
+  admob_flutter: ^0.3.4
+  simple_permissions: ^0.1.6
+  shared_preferences: ^0.4.2
+  catcher: ^0.2.3
+  splashscreen: ^1.2.0
+  vibration: 1.2.1
+  fancy_on_boarding: ^1.3.0
+  package_info: ^0.4.0+6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon4x.png"
 
 
 # For information on the generic Dart part of this file, see the
@@ -66,7 +86,6 @@ flutter:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
@@ -74,5 +93,34 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
   assets:
-  - assets/space.jpg
+    - assets/like_animation.flr
+    - assets/icon4x.png
+    - assets/classicHome.png
+    - assets/doubletap.png
+    - assets/swipe.png
+    - assets/navigate.png
+    - assets/removefav.png
+    - assets/icons/done.png
+    - assets/icons/removefav-icon.png
+    - assets/icons/menu-icon.png
+    - assets/icons/hearticon.png
+    - assets/icons/doubletap.png
+    - assets/icons/shareicon.png
+    - assets/icons/swipe-icon.png
+    - assets/icons/welcome-emoji.png
+
+  fonts:
+  - family: GothamRounded
+    fonts:
+    - asset: fonts/GothamRoundedBold_21016.ttf
+
+  - family: GothamRoundedLight
+    fonts:
+    - asset: fonts/GothamRoundedLight_21020.ttf
+
+  - family: GothamRoundedMedium
+    fonts:
+    - asset: fonts/GothamRoundedMedium_21022.ttf
+

@@ -13,6 +13,5 @@ class MemeLoadingState extends MemesState {}
 
 class MemeLoaded extends MemesState {
   final MemeResponse meme;
-
   MemeLoaded(this.meme) : super([meme]);
 }
